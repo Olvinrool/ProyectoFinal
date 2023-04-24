@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="hn.uth.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_empleado"
+            app:destination="@id/nav_empleado" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_planilla"
+            app:destination="@id/nav_planilla" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_test"
+            app:destination="@id/nav_ubicacion_planilla" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_importar_empleados"
+            app:destination="@id/nav_importar_empleados" />
+    </fragment>
+
+    <activity
+        android:id="@+id/nav_empleado"
+        android:name="hn.uth.myapplication.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/nav_planilla"
+        android:name="hn.uth.myapplication.MainActivity2"
+        android:label="activity_main_planilla"
+        tools:layout="@layout/activity_main2" />
+    <activity
+        android:id="@+id/nav_ubicacion_planilla"
+        android:name="hn.uth.myapplication.geolocalizacion.MainActivity4"
+        android:label="activity_test"
+        tools:layout="@layout/activity_main4" />
+
+    <activity
+        android:id="@+id/nav_importar_empleados"
+        android:name="hn.uth.myapplication.contactos.ContactoActivity"
+        android:label="activity_test"
+        tools:layout="@layout/activity_contacto" />
+
+
+</navigation>
