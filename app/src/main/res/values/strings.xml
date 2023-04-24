@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">HR App</string>
+    <string name="action_delete_all">Borrar todo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Empleados</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="lbl_marca">Nombre</string>
+    <string name="lbl_modelo">apellido</string>
+    <string name="lbl_anio_de_fabricacion">Salario</string>
+    <string name="btn_guardar_vehiculo">Guardar Empleado</string>
+    <string name="btn_crear_vehiculo">Crear Empleado</string>
+    <string name="mensaje_creacion_empleado">Empleado %1$s Creado</string>
+    <string name="mensaje_eliminacion_vehiculo">Empleado Borrado</string>
+    <string name="mensaje_eliminar_todo">Todos los Empleados han sido eliminados</string>
+    <string name="mensaje_mod_vehiculo">Empleado %1$s modificado</string>
+    <string name="lbl_image_car">Imagen de un automovil</string>
+    <string name="lbl_car_image">Car Example preview</string>
+    <string name="lbl_tv_warning">No hay vehiculos creados</string>
+    <string name="lbl_iv_warning">Advertencia no vehiculos creados</string>
+    <string name="lbl_menu_eliminar_vehiculo">Eliminar Vehiculo</string>
+    <string name="title_create_vehicle">Crear Empleado</string>
+    <string name="title_update_vehicle">Actualizar Vehiculo</string>
+    <string name="delete_dialog_title">Confirmar Acción</string>
+    <string name="delete_all_dialog_message">¿Desea eliminar todos los vehiculos?</string>
+    <string name="delete_dialog_message">¿Desea eliminar el vehiculos seleccionado?</string>
+    <string name="ok">Si</string>
+    <string name="cancel">Cancelar</string>
+    <string name="lbl_menu_eliminar_empleado">Eliminar_Empleado</string>
+    <string name="HRApp">Human Resources</string>
+    <string name="myapplication">RHAPP</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_inicio_menu">RRHH App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Human Resources Application</string>
+    <string name="nav_header_subtitle">Navegue entre las categorias</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_menu_location">Ubcacion Planilla</string>
+
+
+    <string name="lbl_pla_image">Imagen Planilla</string>
+    <string name="lbl_concepto">Concepto</string>
+    <string name="lbl_Fecha">Fecha</string>
+    <string name="lbl_totals">Total Salario</string>
+    <string name="btn_guardar_planilla">Guardar Planilla</string>
+    <string name="btn_crear_planilla">Crear Planilla</string>
+    <string name="lbl_iv_warning_planilla">Advertencia no planillas creadas</string>
+    <string name="lbl_tv_warning_planilla">No hay planillas creadas</string>
+    <string name="lbl_image_pla1">Imagen de una planilla</string>
+    <string name="lbl_menu_eliminar_planilla">Eliminar Planilla</string>
+    <string name="action_delete_all_planilla">Borrar Todo</string>
+    <string name="title_create_planilla">Crear Planilla</string>
+    <string name="title_update_planilla">Actualizar Planilla</string>
+    <string name="delete_dialog_title_planilla">Confirmar Acción</string>
+    <string name="delete_all_dialog_message_planilla">¿Desea eliminar todas las Planillas?</string>
+    <string name="delete_dialog_message_planilla">¿Desea eliminar la planilla seleccionada?</string>
+    <string name="ok_planilla">Si</string>
+    <string name="cancel_planilla">Cancelar</string>
+    <string name="mensaje_creacion_planilla">Planilla %1$s Creada</string>
+    <string name="mensaje_eliminacion_planilla">Planilla Borrada</string>
+    <string name="mensaje_eliminar_todo_planilla">Todos las planillas han sido eliminadas</string>
+    <string name="mensaje_mod_planilla">Planilla %1$s modificado</string>
+
+    <string name="txt_primer_valor">primer numero</string>
+    <string name="txt_segundo_valor">segundo numero</string>
+    <string name="btn_sumar">sumar</string>
+    <string name="tv_resultado">resultado</string>
+
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="add_word">Add word</string>
+
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_empleado">Empleado</string>
+    <string name="menu_planilla">Planilla</string>
+    <string name="menu_test">test</string>
+
+
+    <string name="btn_share_location">Compartir ubicación</string>
+    <string name="ib_ask_location_description">Image Ask for My Location</string>
+    <string name="btn_open_map">Abrir Mapa</string>
+    <string name="Tv_wait">Presione el boton y espere mientras se obtiene la ubicacion</string>
+    <string name="importar_empleados">Importar  Empleados</string>
+
+
+</resources>
